@@ -195,12 +195,4 @@ class EventListener implements Listener
 			$event->cancel();
 		}
 	}
-
-	public function onPickupItem(EntityItemPickupEvent $event)
-	{
-		$player = $event->getInventory()->getHolder();
-		if($player instanceof Player and $this->getMain()->getManager()->isPlayerAuthenticated($player)){
-			$event->cancel();
-		}
-	}
 }
