@@ -68,7 +68,7 @@ class ChangepasswordCMD extends Command implements PluginOwned
 		$username = $sender->getName();
     	if(!isset($args[0]) or !isset($args[1]))
     	{
-    		$sender->sendMessage($this->getMain()->getProvider()->getMesage("changepassword.usage"));
+    		$sender->sendMessage($this->getMain()->getProvider()->getMessage("changepassword.usage"));
     		return;
     	}
 
