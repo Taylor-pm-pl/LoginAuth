@@ -8,7 +8,6 @@
 - Protect member's account
 - Easy to set up
  
- <br>
 ## All LoginAuth Commands:
 
 | **Command** | **Description** |
@@ -16,7 +15,7 @@
 | **/login** | **Command to login to the server** |
 | **/register** | **Command to register to the server** |
 | **/changepassword** | **Command to change password** |
-<br>
+
 ## Project Infomation
 
 | Plugin Version | Pocketmine API | PHP Version | Plugin Status |
