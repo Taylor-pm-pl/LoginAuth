@@ -21,6 +21,7 @@ namespace JeroGamingYT\LoginAuth\manager;
 
 use pocketmine\player\Player;
 use pocketmine\Server;
+use JeroGamingYT\LoginAuth\Main;
 
 class Manager 
 {
