@@ -38,7 +38,7 @@ use pocketmine\event\entity\EntityDamageEvent;
 
 class EventListener implements Listener
 {
-
+	public Main $plugin;
 	/**
 	 * @param Main $plugin
 	 */
