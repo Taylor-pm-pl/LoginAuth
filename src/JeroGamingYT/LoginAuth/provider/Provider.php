@@ -25,7 +25,11 @@ use pocketmine\Server;
 use JeroGamingYT\LoginAuth\Main; 
 
 class Provider
-{
+{	
+	/** @Var Config $password */
+	public Config $password;
+	/** @Var Config $msg */
+	public Config $msg;
 	public $configversion = "0.0.1";
 
 	public function __construct()
