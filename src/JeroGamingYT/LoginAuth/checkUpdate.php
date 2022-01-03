@@ -59,7 +59,7 @@ class checkUpdate extends AsyncTask
         
         $version = $content["version"];
         if (version_compare($login->getDescription()->getVersion(), $version) < 0) {
-            $login->getServer()->getLogger()->info("§b[LoginAuth] New version $version has been released, download at: https://poggit.pmmp.io/p/LoginAuth/");
+            Server::getInstance()->getLogger()->info("§b[LoginAuth] New version $version has been released, download at: https://poggit.pmmp.io/p/LoginAuth/");
         }
     }
 }
