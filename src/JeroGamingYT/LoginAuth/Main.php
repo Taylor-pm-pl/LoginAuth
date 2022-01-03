@@ -27,7 +27,11 @@ use JeroGamingYT\LoginAuth\provider\Provider;
 use JeroGamingYT\LoginAuth\commands\{LoginCMD, RegisterCMD, ChangepasswordCMD};
 
 class Main extends PluginBase
-{
+{	
+	/**@var Manager $manager*/
+	public Manager $manager;
+	/**@var Provider $provider*/
+	public Provider $provider;
 
 	public function onEnable(): void 
 	{
