@@ -63,7 +63,7 @@ changepassword:
 
 # Contacts
 **You can contact me directly through the platforms listed below**
-| Platform | NhanAZ             |
+| Platform | JeroGamingYT             |
 | :------: | :----------------: |
 | Discord  | Jero Gaming#6805        |
 | Email    | JeroGamingYT@pm.me       |
