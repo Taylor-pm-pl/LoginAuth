@@ -179,8 +179,9 @@ class EventListener implements Listener
 	 * @param  EntityDamageEvent $event
 	 */
 	public function onEntityDamage(EntityDamageEvent $event)
-	{
-		if($event->getEntity() instanceof Player and $this->getMain()->getManager()->isPlayerAuthenticated($player)){
+	{	
+		$player = $event->getEntity();
+		if($player instanceof Player and $this->getMain()->getManager()->isPlayerAuthenticated($player)){
 			$event->cancel();
 		}
 	}
