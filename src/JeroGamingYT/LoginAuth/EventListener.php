@@ -131,7 +131,8 @@ class EventListener implements Listener
      * @param  PlayerRespawnEvent $event
      */
     public function onPlayerRespawn(PlayerRespawnEvent $event)
-    {
+    {	
+	    	$player = $event->getPlayer();
 		if($this->getMain()->getManager()->isPlayerAuthenticated($player)){
 			if($this->getMain()->getProvider()->accountExists($player)){
 				$player->sendMessage($this->getMain()->getProvider()->getMessage("login.usage"));
