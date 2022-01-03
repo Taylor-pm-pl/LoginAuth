@@ -28,6 +28,9 @@ use pocketmine\plugin\PluginOwned;
 
 class ChangepasswordCMD extends Command implements PluginOwned
 {	
+	/** @Var Main $plugin */
+	public Main $plugin;
+	
 	/**
 	 * @param Main $plugin
 	 */
