@@ -1,0 +1,7 @@
+name: LoginAuth
+author: JeroGamingYT
+version: 0.0.1
+api: 
+  - 4.0.0
+main: JeroGamingYT\LoginAuth\Main 
+website: https://github.com/JeroGamingYT
