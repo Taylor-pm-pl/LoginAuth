@@ -53,7 +53,7 @@ class checkUpdate extends AsyncTask
         
         $content = $this->getResult();
         if(!isset($content)) {
-            $login->getServer()->getLogger()->info("§6[LoginAuth] Cant get update information");
+            Server::getInstance()->getLogger()->info("§6[LoginAuth] Cant get update information");
             return;
         }
         
